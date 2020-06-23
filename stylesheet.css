@@ -1,0 +1,159 @@
+body{
+  margin: 0;
+  font-size: 16px;
+  font-family: Verdana,sans-serif;
+}
+/* ヘッダー */
+header h1{
+  text-align: center;
+  margin-left: 30px;
+}
+
+header ul{
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin-right: 15px;
+}
+
+header ul li{
+  margin-left: 10px;
+}
+
+header img{
+  max-width: 100%;
+}
+
+header a{
+  text-decoration: none;
+  color: darkgray;
+}
+
+header a:hover{
+  opacity: 0.5;
+}
+
+/* デイトラについて */
+.deitora{
+  text-align: center;
+  margin-top: 70px;
+}
+
+.deitora img{
+  max-width: 90%;
+}
+
+.deitora p{
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* コース一覧 */
+.course{
+  text-align: center;
+  margin-top: 70px;
+}
+
+.course p{
+  color: darkgray;
+}
+
+.image{
+  margin-bottom: 50px;
+}
+
+.image img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 90%;
+}
+
+/* お問い合わせ */
+.form{
+  text-align: center;
+  margin-top: 70px;
+}
+
+.form p{
+  color: darkgray;
+}
+
+.form a{
+  display: block;
+  width: 150px;
+  text-decoration: none;
+  background-color: tomato;
+  color: white;
+  line-height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+
+.form a:hover{
+  opacity: 0.5;
+}
+
+/* フッター */
+footer{
+  color: darkgray;
+  margin-top: 70px;
+  display: flex;
+  justify-content: flex-end;
+  border-top: 1px solid darkgrey;
+}
+
+@media (min-width: 600px) {
+  header .top{
+    display: flex;
+  }
+
+  header h1{
+    margin-left: 5%;
+  }
+
+  header ul{
+    margin-left:auto ;
+    align-items: center;
+    margin-right: 10%;
+  }
+
+
+
+
+
+
+
+
+  .container2{
+    display: flex;
+  }
+
+
+  .container{
+    display: flex;
+    display: flex;
+  }
+
+  .container img{
+    max-width: 45%;
+    margin-left: auto;
+    /* margin-right: auto; */
+  }
+
+  .container p{
+    max-width: 45%;
+   
+    margin-right: auto;
+  }
+
+  .container1{
+    display: flex;
+  }
+}
+
+@media (min-width: 800px){
+
+}
